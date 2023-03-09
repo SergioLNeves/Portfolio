@@ -1,0 +1,51 @@
+ .textAlignLeft {
+   text-align: start;
+   text-align: left;
+ }
+
+ .buttonIcon{
+  display: flex;
+  justify-content: space-around;
+ }
+
+ .imagemApresentacao {
+   max-width: 100%;
+   width: 500px;
+   border-radius: 20%;
+   border: yellow 1vh solid;
+ }
+
+ .subtitle {
+   color: white !important;
+ }
+
+ .title {
+   color: #FEF445 !important;
+   font-family: 'Secular One', sans-serif !important;
+ }
+
+ .button {
+   background-color: #FEF445 !important;
+   color: #0C0B33 !important;
+   border-radius: 10em !important;
+   font-size: 1vh !important;
+   font-weight: 600 !important;
+   padding: 1em 2em !important;
+   margin: 1vh !important;
+   cursor: pointer !important;
+   transition: all 0.3s ease-in-out !important;
+   border: 0.3vh solid #0C0B33 !important;
+   box-shadow: 0 0 0 0 #0C0B33 !important;
+ }
+
+ .button:hover {
+   transform: translateY(-4px) translateX(-2px);
+   box-shadow: 1.2vh 2vh 0 0 #0C0B33 !important;
+ }
+
+ ;
+
+ .button:active {
+   transform: translateY(2px) translateX(1px) !important;
+   box-shadow: 0 0 0 0 #0C0B33 !important;
+ }
