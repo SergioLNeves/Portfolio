@@ -11,7 +11,7 @@ function Home() {
     return (
         <>
             <div>
-                <Container maxWidth="xs">
+                <Container maxWidth="lg">
                     <Box marginTop={12}>
                         <Grid justifyContent="center">
                             <Apresentacao />

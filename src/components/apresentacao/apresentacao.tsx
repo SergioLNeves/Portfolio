@@ -12,14 +12,21 @@ function Apresentacao() {
     return (
         <div>
             <Container>
-                <Grid container justifyContent="center">
-                    <Grid item xs={8}>
+                <Grid container direction='row-reverse' justifyContent="center" spacing={2} alignContent="center" alignItems='center'>
+                    <Grid item xs={8} sm={6}>
+                        <img src={minhaImagem} className="imagemApresentacao" alt="Uma imagem do meu Rosto" />
+                    </Grid>
+                    <Grid item xs={8} sm={6}>
+                        <Box display={"flex"} justifyItems={"center"} >
+                            <Box className='wordCenter'>
                                 <Box>
                                     <Typography className='subtitle textAlignLeft' variant="subtitle1">Hello World, eu sou</Typography>
                                     <Typography className='title' variant="h2">Sérgio</Typography>
                                     <Typography className='subtitle textAlignLeft' variant="subtitle1">Desenvolvedor React</Typography>
                                 </Box>
-                                <Box className='textAlignLeft buttonIcon'>
+                            </Box>
+                            <Box className='buttonIcon'>
+                                <Box className='textAlignLeft'>
                                     <a href="https://github.com/SergioLNeves" target="_blank">
                                         <IconButton className='button'>
                                             <GitHubIcon />
@@ -31,9 +38,8 @@ function Apresentacao() {
                                         </IconButton>
                                     </a>
                                 </Box>
-                    </Grid>
-                    <Grid item xs={8}>
-                            <img src={minhaImagem} className="imagemApresentacao" alt="Uma imagem do meu Rosto" />
+                            </Box>
+                        </Box>
                     </Grid>
                 </Grid>
             </Container>
